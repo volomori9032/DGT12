@@ -27,22 +27,20 @@ def user():
 
 def world():
 
-    print(f"""
-        Welcome traveler, {name}!\n 
-        Your current setting is Mythpond Forest. Lastbrook, Angelbreak. Mythpond forest is a forest spanning 5.8  million square kilometres.\n
-        This forest is known to be extremely dangerous and be inhabited by a few mythical creatures, those of which are only persumed to be in legends or old folk lore,\n
-        Though that is just what the elders say, you don't have to believe them. They probably only misremember what they saw in there or were hallucinating.\n
-        Anyways, the trees here are GIANT, like 2km tall on average so once you get into it there ain't any sunlight unless the trees are far and between or loose leaves.
-        """)
+    print(f"Welcome traveler, {name}!")
+    print("Your current setting is Mythpond Forest. Lastbrook, Angelbreak. Mythpond forest is a forest spanning 5.8  million square kilometres.")
+    print("This forest is known to be extremely dangerous and be inhabited by a few mythical creatures, those of which are only persumed to be in legends or old folk lore,")
+    print("Though that is just what the elders say, you don't have to believe them. They probably only misremember what they saw in there or were hallucinating.")
+    print("Anyways, the trees here are GIANT, like 2km tall on average so once you get into it there ain't any sunlight unless the trees are far and between or loose leaves.")
     
     gameentry1()    
 
 
 def gameentry1():
 
+    print("You have been tasked to enter the forest and find a missing couple who have been missing for 4 months now.")
+    print("The reward for completing the mission is 10 milion dollars.")
     gameentry = input("""
-                    You have been tasked to enter the forest and find a missing couple who have been missing for 4 months now.\n 
-                    The reward for completing the mission is 10 milion dollars.\n
                     Do you accept?\n
                     Yes\n
                     No\n
@@ -55,8 +53,8 @@ def gameentry1():
         print("Very well then traveler, I hope to see you in the future.")
 
     else:
+        print("You have entered something other than what you have been provided with, I assume this is a mistake. I will give you the decision again.")
         gameentry2 = ("""
-                    You have entered something other than what you have been provided with, I assume this is a mistake. I will give you the decision again.\n
                     Do you wish to accept the mission?\n
                     Yes\n
                     No\n
