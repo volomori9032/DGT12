@@ -1,2 +1,1 @@
-import easygui
-
+from easygui import *
